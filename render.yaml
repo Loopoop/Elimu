@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: my-vanilla-site
+    env: static
+    buildCommand: ""
+    staticPublishPath: .
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+        # Only add this if using client-side routing
