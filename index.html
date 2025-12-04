@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LearnHub - Elevate Your Skills</title>
+    <title>ELIMUTECH/HOME</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
       rel="stylesheet"
@@ -372,13 +372,24 @@
         }
         
         nav {
+          width: 100%;
           flex-direction: column;
-          gap: 1rem;
+          justify-content: space-between;
+          align-items: center;
           padding: 1rem;
+        
         }
         
         nav ul {
-          gap: 1rem;
+          overflow: scroll;
+          gap: 2px;
+          font-weight: bold;
+          font-size: 0.6em;
+          text-transform: uppercase;
+        }
+        
+        nav ul li::before{
+          content: "|";
         }
         
         #container {
@@ -408,7 +419,7 @@
         <li><a href="#courses">Courses</a></li>
         <li><a href="Testimony.html">Testimonials</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a href="#" onclick="showRegister()" class="cta">Sign Up</a></li>
+        <li><a href="#" onclick="showRegister()" class="cta">SIGNUP</a></li>
       </ul>
     </nav>
 
